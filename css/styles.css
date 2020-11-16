@@ -1,0 +1,124 @@
+html, body {
+    margin: 0;
+    height: 100%;
+  }
+
+
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(155deg, #FFFFFF 10%, #B4DAE8 100%);
+  }
+  
+  header{
+
+    padding-top: 30px;
+
+    align-items: center;
+    
+    height: 38vh;
+    
+  }
+
+  main {
+    align-items: center;
+    /* align-items: stretch; */
+    height: 50vh;
+    /* background: #2ceaec; */
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+  }
+  
+  footer {
+    /* overflow-y: scroll; */
+    flex: auto;
+    
+    text-align: center;
+    font-size: 2vh;
+    color: #8790A1;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+
+    padding: 30px;
+
+    /* background: #2cea3c; */
+  }
+
+.imageBox{
+  margin: auto;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  height: 15vh;
+  width: 15vh;
+  display: block;
+
+  /* position: absolute; */
+}
+
+  h1 {
+    text-align: center;
+    font-family: lato,sans-serif;
+    font-weight: 400;
+    color: #8790A1;
+
+    font-size: 4vh;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: lato,sans-serif;
+    font-weight: 400;
+    color: #d6bcbe;
+    
+    font-size: 2.5vh;
+  }
+
+  h3 {
+    text-align: center;
+    font-family: lato,sans-serif;
+    font-weight: 400;
+    color: #8790A1;
+    
+    font-size: 2.5vh;
+  }
+
+    .BUTTON {
+
+      /* margin-top: 10px; */
+      /* margin-bottom: 10px; */
+      /* margin-left: auto;
+      margin-right: auto; */
+
+      /* max-width: 800px; */
+      width: 80vw;
+      
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      border-radius: 100px;
+      color: #8790A1;
+      font-family: Arial;
+      font-size: 3vh;
+      font-weight: 100;
+      padding: 2.7vh;
+      background-color: #FDF7F8;
+      text-decoration: none;
+      /* display: inline-block; */
+      cursor: pointer;
+      text-align: center;
+   }
+
+   .BUTTON:hover {
+    cursor: grab;
+  }
+
+  .PRIMARY{
+    color: #FDF7F8;
+    background-color: #aa5050;
+  }
